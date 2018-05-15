@@ -1,3 +1,13 @@
+-----------------------------------------------------------------------------------------
+--
+-- main.lua
+--
+-- Created by: Wendi Yu
+-- Created on: May 2018
+-- 
+-- This file is create a composer
+-----------------------------------------------------------------------------------------
+
 -- game scene
 
 -- place all the require statements here
