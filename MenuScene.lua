@@ -50,11 +50,11 @@ function scene:show( event )
  
     if ( phase == "will" ) then
         local background = display.newRect(display.contentCenterX, display.contentCenterY, display.contentWidth, display.contentHeight)
-        background:setFillColor( 1,1,0 )
+        background:setFillColor( 1,0.3,0.5 )
         sceneGroup:insert( background )
 
         local title = display.newText("Menu Scene", display.contentWidth / 2, display.contentHeight / 2, native.systemFont, 48)
-        title:setFillColor( 0,0,0 )
+        title:setFillColor( 0.3,0.5,0.6 )
         sceneGroup:insert( title )
 
 

@@ -25,7 +25,7 @@ local function showMenuScene()
         efefect = "fade",
         time = 500
     }
-    composer.gotoScene("Menucene", options )
+    composer.gotoScene("MenuScene", options )
 end
 
 -- create()
