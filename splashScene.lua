@@ -46,11 +46,11 @@ function scene:show( event )
     if ( phase == "will" ) then
         -- Called when the scene is still off scene (but ids about to come on screen)
         local background = display.newRect(display.contentCenterX, display.contentCenterY, display.contentWidth, display.contentHeight )
-        background:setFillColor( 0.3, 0.1, 0.8)
+        background:setFillColor( 0.1, 0.6, 0.7)
         sceneGroup:insert(background)
 
-        local title = display.newText( "Splash Scene", 1024, 700, native.systemFont, 80 )
-        title:setFillColor( 1, 1, 1)
+        local title = display.newText( "Splash Scene", 1024, 700, native.systemFont, 100 )
+        title:setFillColor( 0.2, 1, 1)
         sceneGroup:insert(title)
  
     elseif ( phase == "did" ) then

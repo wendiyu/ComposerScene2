@@ -53,7 +53,7 @@ function scene:show( event )
         background:setFillColor( 1,0.3,0.5 )
         sceneGroup:insert( background )
 
-        local title = display.newText("Menu Scene", display.contentWidth / 2, display.contentHeight / 2, native.systemFont, 48)
+        local title = display.newText("Menu Scene", display.contentWidth / 2, display.contentHeight / 2, native.systemFont, 100)
         title:setFillColor( 0.3,0.5,0.6 )
         sceneGroup:insert( title )
 
@@ -61,11 +61,11 @@ function scene:show( event )
         local button = widget.newButton
         {
             label = "Go to Game",
-            fontSize = 48,
+            fontSize = 100,
             -- Properties for a rounded rectangle button
             shape = "roundedRect",
-            width = 320,
-            height = 100,
+            width = 720,
+            height = 140,
             cornerRadius = 2,
             fillColor = { default={1,1,1,1}, over={1,0.1,0.7,0.4} },
             strokeColor = { default={1,0.4,0,1}, over={0.8,0.8,1,1} },
@@ -77,7 +77,7 @@ function scene:show( event )
             end
         }
         button.x = display.contentWidth / 2
-        button.y = display.contentHeight / 2 - 100
+        button.y = display.contentHeight / 2 - 150
         sceneGroup:insert(button)
  
     elseif ( phase == "did" ) then
