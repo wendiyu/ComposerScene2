@@ -5,7 +5,7 @@
 -- Created by: Wendi Yu
 -- Created on: May 2018
 -- 
--- This file is create a composer
+-- This file is create a menu scene composer
 -----------------------------------------------------------------------------------------
 
 -- menuScene
